@@ -24,14 +24,6 @@ def distance(p1, p2): #計算兩點距離
     x2, y2 = p2
     return ((x2-x1)**2+(y2-y1)**2)**0.5
 
-def distance_map():
-    map = [[0 for _ in range(citys)] 
-				   for _ in range(citys)]
-    for row in range(citys):
-        for col in range(citys):
-            map[row][col] = distance(citys[row],citys[col])
-        return map
-
 def pathLength(p): #計算總距離
     dist = 0
     plen = len(p)
