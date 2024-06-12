@@ -15,3 +15,5 @@
 - OpenCV相關技術：
   - [OpenCV Text Handling](https://steam.oxxostudio.tw/category/python/ai/opencv-text.html)
   - [OpenCV Write Image](https://steam.oxxostudio.tw/category/python/ai/opencv-write-image.html)
+## Youtube 展示
+ https://youtu.be/ZMQFTu6qdkI
