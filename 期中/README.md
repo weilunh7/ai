@@ -1,4 +1,4 @@
-#車牌辨識使用YOLOv8+EasyOCR
+# 車牌辨識使用YOLOv8+EasyOCR
 ## 在Colab上訓練YOLOv8
 [Yolov8訓練Colab連結](https://colab.research.google.com/drive/1424vL3lo8Kp7ebcPzBUb2cdHOaLxm-XB)
 
