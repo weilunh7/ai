@@ -7,6 +7,8 @@
 
 經過研究YOLO的裁切功能和OCR技術後，我決定使用easyocr進行車牌文字的辨識，期間也嘗試了形態學技術，但最終選擇了使用easyocr，因為設定相對簡單。最終的成果在`final.py`中，不過在過程中遇到了`result[0] out of range`的錯誤，一開始在網上找不到相關信息，最後發現是因為沒有偵測到圖片的問題。
 
+實際顯示文字的問題還要解決，當圖片變換太快的話會來不及顯示，但文字是有偵測到並儲存到檔案標題的。
+
 ## 參考資料
 - YOLO參數設定：[How to Detect Objects in Images using YOLOv8](https://www.freecodecamp.org/news/how-to-detect-objects-in-images-using-yolov8/)
 - 裁切技術：[Ultralytics Object Cropping Guide](https://docs.ultralytics.com/zh/guides/object-cropping/#visuals)
